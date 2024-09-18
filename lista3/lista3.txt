@@ -1,0 +1,72 @@
+﻿Universidade Federal do Rio Grande
+Bacharelado em Sistemas de Informação 
+Lista de exercícios - Strings + Arquivos
+AED I – 2022
+
+
+1. Faça um programa em python que leia uma frase e a passe para maiúscula. Você não deve utilizar as funções prontas do python para converter para maiúscula ou minúscula.
+
+
+
+2. Faça um programa em python que leia uma frase e passe para maiúscula a primeira letra de cada palavra. 
+Você não deve utilizar as funções prontas do python para converter para maiúscula ou minúscula.
+
+
+
+3. Escreva um programa que recebe uma string do usuário e imprime a string invertida.
+
+
+
+4. Escreva um programa que recebe uma string do usuário e imprime a string com todas as letras maiúsculas convertidas para minúsculas e vice-versa.
+
+
+
+5. Escreva um programa que recebe uma frase do usuário e conta o número de palavras na frase.        
+
+
+
+6. Faça um programa em python que diga se uma senha digitada é fraca, média ou forte.
+- Senha fraca: não possui caracteres especiais, nem letras maiúsculas.
+- Senha média: possui letras minúsculas, números e caracteres especiais, mas não possui letras maiúsculas.
+- Senha forte: possui letras minúsculas/maiúsculas, números e caracteres especiais.
+
+
+
+7. Escreva um programa em python que leia um texto e diga se é ou não um palíndromo (ou seja, se o inverso da string é igual a ela). 
+Não será possível utilizar qualquer função no python que trabalhe com strings.
+
+Exemplos:
+Ama
+Mirim
+A grama é amarga
+
+
+
+8. Faça um programa em python que:
+- Crie uma senha aleatória de 6 caracteres alfanuméricos (A..Z,0..9);
+- Descubra a senha criada (força bruta - tentar todas possibilidades). 
+Obs: para encontrar a senha, você não pode comparar pedaços da senha, precisa comparar toda senha (ex: if senha_gerada==senha_tentada: ).
+
+
+
+9. Escreva um programa em python que leia uma string, e substitua cada segmento de dois ou mais espaços em branco por um só caractere de espaço. 
+Não deve ser utilizada qualquer função no python que trabalhe com strings.
+
+
+
+10. Faça um programa em python que leia três textos. O programa deve imprimir o primeiro texto substituindo todas as ocorrências do segundo pelo terceiro. 
+Não deve ser utilizada qualquer função no python que trabalhe com strings.
+
+
+
+
+—------------------------------------------------------------------------------------------------------------------------
+Funções auxiliares:
+
+chr: retorna o caractere que é apontado pelo inteiro i no código Unicode. Por exemplo, chr(97) retorna a string 'a'.
+
+ord: dada um caractere Unicode, retorna um número inteiro representando o código Unicode desse caractere. Por exemplo, ord('a') retorna o número inteiro 97. 
+
+randint: retorna um número inteiro aleatório entre 2 números.
+import random
+print(random.randint(3, 9))
