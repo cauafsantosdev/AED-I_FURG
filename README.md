@@ -8,3 +8,5 @@
 - Estruturas de repetição
 - Manipulação de strings
 - Listas
+- Manipulação de arquivos
+- Strings
