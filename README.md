@@ -1,12 +1,12 @@
-# Algoritmos e Estrutura de Dados I - FURG
+# Algorithms and Data Structures I - FURG
 
-## Conteúdo visto até agora ##
+## Content seen: ##
 #### Python #
 
-- Operadores
-- Condicionais
-- Estruturas de repetição
-- Manipulação de strings
-- Listas
-- Manipulação de arquivos
-- Funções
+- Operators
+- Conditions
+- Loops
+- Working with strings
+- Lists
+- Working with files
+- Functions
