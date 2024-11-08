@@ -15,6 +15,6 @@ def word_checker(word: str):
 
 cases = int(input(""))
 
-for i in range(0, cases):
+for i in range(cases):
     word = input("")
     print(word_checker(word))
