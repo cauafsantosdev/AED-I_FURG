@@ -5,14 +5,12 @@ def define_lang(people: int):
         lang = input("")
         languages.append(lang)
 
-    main = languages[0]
-    languages.pop(0)
-
     for language in languages:
-        if language != main:
+        if language != languages[0]:
             return "ingles"
         
-    return main
+    return languages[0]
+
 
 cases = int(input(""))
 
