@@ -3,13 +3,13 @@ class Country:
         self.__states = []
         self.__cities = []
 
-    def get_states(self, filename: str):
+    def get_states(self, filename: str): # Adiciona a lista de estados do país
         with open(filename, "r") as file:
             data = file.readlines()
             data.pop(0)
             self.__states = [line.strip().split(",") for line in data]
     
-    def get_cities(self, filename: str):
+    def get_cities(self, filename: str): # Adiciona a lista de cidades do país
         with open(filename, "r") as file:
             data = file.readlines()
             data.pop(0)
