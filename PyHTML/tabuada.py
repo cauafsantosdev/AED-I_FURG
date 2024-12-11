@@ -1,11 +1,11 @@
-n = 1
-
-while n <= 10:
-	print(f"<h2>Tabuada de {n}:</h2>")
-	print("<table border=1>")
-	for i in range(0, 11):
-		print(f"<tr><td>{n} x {i} =</td><td>{n * i}</td></tr>")
-	print("</table>")
-	n += 1
-    
-
+with open("PyHTML/tabuada.html", "w") as html:
+	html.write("<!DOCTYPE html>\n<html>\n<head>\n")
+	html.write("    <title>Tabuada</title>\n")
+	html.write("</head>\n<body>\n")
+	for i in range(1, 11):
+		html.write(f"    <h2>Tabuada de {i}:</h2>\n")
+		html.write("    <table border=1>\n")
+		for n in range(0, 11):
+			html.write(f"        <tr><td>{i} x {n} =</td><td>{i * n}</td></tr>\n")
+		html.write("    </table>\n")
+	html.write("</body>\n</html>")
